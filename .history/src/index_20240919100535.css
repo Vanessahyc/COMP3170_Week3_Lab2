@@ -1,0 +1,12 @@
+.artistCard {
+    display: flex;
+    background: #eee;
+    margin: 0 auto;
+}
+
+.artistImage {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}

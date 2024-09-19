@@ -1,0 +1,25 @@
+.app {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.artistCard {
+    display: flex;
+    background: #eee;
+    margin: 0 auto;
+    align-items: center;
+    gap: 1em;
+    padding: .5em;
+    margin-bottom: 1em;
+}
+
+.artistImage {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.artistImage {
+    width: 100%;
+}

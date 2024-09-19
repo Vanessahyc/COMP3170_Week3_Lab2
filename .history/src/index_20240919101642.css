@@ -1,0 +1,42 @@
+#root {
+    .nunito-sans-<uniquifier> {
+        font-family: "Nunito Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100,
+          "YTLC" 500;
+      }
+}
+
+.app {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.app h1 {
+    text-align: center;
+}
+
+.artistCard {
+    display: flex;
+    background: #eee;
+    margin: 0 auto;
+    align-items: center;
+    gap: 1em;
+    padding: .5em;
+    margin-bottom: 1em;
+    border-radius: 10px;
+}
+
+.artistImage {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.artistImage img {
+    width: 100%;
+}
